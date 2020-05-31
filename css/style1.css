@@ -1,0 +1,77 @@
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: maroon;
+}
+
+#header-nav{
+    background-color: rgb(252, 165, 5);
+    border-radius: 0;
+    border-width: 1px 0 3px 0;
+    border-style: solid;
+    border-color: black;
+}
+
+.navbar-header #Name{
+   margin: 15px 15px 20px 15px;
+   font-size: 30px;
+   color: rgb(54, 54, 54);
+}
+
+.navbar-header a:hover{
+    text-decoration: none;
+}
+
+
+#nav-list {
+    margin-top: 10px;
+  }
+  #nav-list a {
+    color: #951C49;
+    text-align: center;
+  }
+  #nav-list a:hover {
+    background: #E7E7E7;
+  }
+  #nav-list a span {
+    font-size: 1.8em;
+  }
+  
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid #61122f;
+  }
+  .navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -60px;
+  }
+
+
+  Section h3{
+      text-align: center;
+     color:white;
+     margin-bottom: 40px;
+  }
+
+  Section #menu{
+      text-align: center;
+      margin-bottom: 10px;
+      margin-top: 10px;
+      font-size: 25px;
+      font-weight: bold;
+  }
+
+  section .main{
+      background-color: gray;
+  }
+
+
+  @media (max-width:767px){
+
+    .navbar-header #Name{
+      margin-left: 15px;
+      font-size: 30px;
+      
+   }
+
+  }
+
